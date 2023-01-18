@@ -1,0 +1,134 @@
+.PARTICIAPTION-TEAMS-MAIN-CONTAINER {
+    margin-top: 30px;
+    background-color: #F9EFD7;
+    width: 100vw;
+}
+
+.PARTICIAPTION-PAGE-HEADING {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.NAVIGATION-LINE {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.NAVIGATION-LINE>a {
+    padding: 7px;
+    border: 4px solid black;
+    background-color: #AC70FF;
+    margin: 0px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+@media (max-width:460px) {
+    .NAVIGATION-LINE {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .NAVIGATION-LINE>a {
+        margin: 10px 0px 0px 0px;
+    }
+
+}
+
+.COMMITEE-MEMBER-CONTAINER {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    padding: 1% 15%;
+}
+
+.DEVLOPER-CONTAINER {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 100vw; */
+}
+
+.GRAPHICS-CONTAINER {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* width: 100vw; */
+}
+
+.CORE-COMITEE-CONTAINER {
+    display: flex;
+    cursor: pointer;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    flex-direction: row;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 16px;
+    position: relative;
+    height: 300px;
+}
+
+.DEVLOPER-COMITEE-CONTAINER {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    flex-direction: row;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 16px;
+    position: relative;
+    height: 400px;
+}
+
+.GRAPHICS-COMITEE-CONTAINER {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    flex-direction: row;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 16px;
+    position: relative;
+    height: 400px;
+}
+
+.CORE-COMMITEE-IMAGE {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: -30px;
+}
+
+.MEMBER-INFORMATION {
+    margin-right: 20px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    right: 0;
+    height: 100%;
+    width: 100px;
+}
+
+.MEMBER-NAME {
+    color: purple;
+}
+
+.MEMBER-STATUS {
+    color: green;
+}
