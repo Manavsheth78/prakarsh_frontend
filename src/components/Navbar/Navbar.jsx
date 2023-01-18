@@ -10,17 +10,19 @@ function Navbar() {
         <ul className="navicons">
           {/* <li className='navitem active'> <a href="#">
                  <img src="assets/user.png" className=' user' alt="" /></a></li> */}
-          <li>
-            <button type="button" className="signupbtn">
-              {" "}
-              <a href="#"> SIGN UP </a>
-            </button>
-          </li>
+
           <li className="navitem">
             {" "}
             <a href="#">
               <img src="assets/shopcart.svg" className="cart" alt="" />
             </a>
+          </li>
+
+          <li>
+            <button type="button" className="signupbtn">
+              {" "}
+              <a href="#"> SIGN UP </a>
+            </button>
           </li>
         </ul>
       </div>
