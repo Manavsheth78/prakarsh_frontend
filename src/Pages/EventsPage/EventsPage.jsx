@@ -9,6 +9,7 @@ const Events = [
     EventimageSource: "assets/EventImages/01.jpg",
     EventDiscription: "CYBER INTRUSION",
     key: 1,
+    Animation: "fade-left",
   },
   {
     className: "EVENT-ITEM-CONTAINER",
