@@ -4,7 +4,7 @@ function EventsName(props) {
   return (
     <div
       data-aos={props.item.Animation}
-      data-aos-delay="100"
+      data-aos-delay="250"
       className={`EVENT-ITEM-CONTAINER ${props.item.subClassName}`}
     >
       <img src={props.item.EventimageSource} alt="" />
