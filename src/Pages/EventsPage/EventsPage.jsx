@@ -9,7 +9,7 @@ const Events = [
     EventimageSource: "assets/EventImages/01.jpg",
     EventDiscription: "CYBER INTRUSION",
     key: 1,
-    Animation: "fade-left",
+    Animation: "fade-right",
   },
   {
     className: "EVENT-ITEM-CONTAINER",
@@ -18,6 +18,7 @@ const Events = [
     EventimageSource: "assets/EventImages/02.jpg",
     EventDiscription: "CIRCUITRICKS",
     key: 2,
+    Animation: "flip-up",
   },
   {
     className: "EVENT-ITEM-CONTAINER",
@@ -26,6 +27,7 @@ const Events = [
     EventimageSource: "assets/EventImages/03.jpg",
     EventDiscription: "STRUCTONICS",
     key: 3,
+    Animation: "fade-left",
   },
   {
     className: "EVENT-ITEM-CONTAINER",
@@ -34,6 +36,7 @@ const Events = [
     EventimageSource: "assets/EventImages/04.jpg",
     EventDiscription: "WHEELS & WINGS",
     key: 4,
+    Animation: "fade-right",
   },
   {
     className: "EVENT-ITEM-CONTAINER",
@@ -42,6 +45,7 @@ const Events = [
     EventimageSource: "assets/EventImages/05.jpg",
     EventDiscription: "DEXTER'S LAB",
     key: 5,
+    Animation: "flip-up",
   },
   {
     className: "EVENT-ITEM-CONTAINER",
@@ -50,6 +54,7 @@ const Events = [
     EventimageSource: "assets/EventImages/06.jpg",
     EventDiscription: "WORKSHOPS",
     key: 6,
+    Animation: "fade-left",
   },
   {
     className: "EVENT-ITEM-CONTAINER",
@@ -58,6 +63,7 @@ const Events = [
     EventimageSource: "assets/EventImages/07.jpg",
     EventDiscription: "ANCILLARY",
     key: 7,
+    Animation: "fade-right",
   },
   {
     className: "EVENT-ITEM-CONTAINER",
@@ -66,6 +72,7 @@ const Events = [
     EventimageSource: "assets/EventImages/08.jpg",
     EventDiscription: "S.H.A.R.K.S",
     key: 8,
+    Animation: "flip-up",
   },
   {
     className: "EVENT-ITEM-CONTAINER",
@@ -74,6 +81,7 @@ const Events = [
     EventimageSource: "assets/EventImages/09.jpg",
     EventDiscription: "FUNTASTIC",
     key: 9,
+    Animation: "fade-left",
   },
 ];
 const EventsPage = () => {
