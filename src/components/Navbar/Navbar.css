@@ -1,182 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
-*{
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
+* {
+  box-sizing: border-box;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    height: 5rem;
-    width: 100vw;
-    /* background-color: transparent; */
-    /* box-shadow: 0px 3px 5px rgb(0, 0, 0,1); */
-    border-bottom: 3px solid rgba(0, 0, 0, 0.500);
-
-    /* backdrop-filter: blur(5px); */
-    /* -webkit-backdrop-filter: blur(5px);  */
-    /* background-color: rgb(249, 239, 215,0.65); */
-     background: rgba(248, 238, 214);
-    /* z-index: 999; */
-    border-radius: 11px;
+.container-fluid {
+  background-color: f9efd7;
 }
-.logo{
-  
-    width: 100px;
-    object-fit: contain;
-    overflow: hidden;
-   
+.logo {
+  width: 100px;
+  object-fit: contain;
+  overflow: hidden;
 }
 
-
-.navbar .logo img{
-    width: 100%;
-    object-position: 1rem 0.6rem;
+.navbar .logo img {
+  width: 100%;
+  object-position: 1rem 0.6rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+.navicons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
 }
 
- .navicons{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
-    
- }
+.navitem img {
+  width: 50px;
+}
 
- .navitem img{
-    width: 50px;
- }
-  
- 
-
- 
-
- .navicons li{
-    box-sizing: border-box;
-    padding: 20px 28px;
- }
-    
-   
-
-.signupbtn{
-    box-sizing: border-box;
-    /* width:  80px;
+.navicons li {
+  box-sizing: border-box;
+  padding: 20px 28px;
+}
+.cart {
+  width: 50px;
+  font-size: 60px;
+}
+.signupbtn {
+  box-sizing: border-box;
+  /* width:  80px;
     height: 50px; */
-    width: 120px;
-    height: 40px;
-    border-radius: 6px;
-    font-family: 'Syncopate', sans-serif;
-    text-transform: capitalize;
-    font-weight: 700;
-    background-color: rgb(0, 78, 73);
-    box-shadow: 2px 4px 1px   rgba(0, 0, 0,1);
-    cursor: pointer;
-    font-size: 16px;
-    border:2px solid black;
-    
-    
+  width: 120px;
+  height: 40px;
+  border-radius: 6px;
+  font-family: "Syncopate", sans-serif;
+  text-transform: capitalize;
+  font-weight: 700;
+  background-color: rgb(0, 78, 73);
+  box-shadow: 2px 4px 1px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  font-size: 16px;
+  border: 2px solid black;
 }
 
-.signupbtn:active{
-    background-color: rgb(0, 78, 73,0.78);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0,0.6);
-    transform: translateY(3px);
-    cursor: pointer;
-
+.signupbtn:active {
+  background-color: rgb(0, 78, 73, 0.78);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+  transform: translateY(3px);
+  cursor: pointer;
 }
-
-    
-.navicons li a{
-    text-decoration: none;
-    color: white;
-
-    
+.signupbtn a {
+  color: white;
+  padding: 0;
+}
+.navbar .navbar-expand-lg .bg-body-tertiary {
+  background-color: #f9efd7;
+}
+.navicons li a {
+  text-decoration: none;
+  color: white;
 }
 
 /* ------------------------responsive------------ */
 
-@media (max-width:800px){
-    .navbar{
-        display: flex;
-        justify-content: space-between;
-        position: relative;
-        height: 5rem;
-        width: 100vw;
-        /* background-color: transparent; */
-        /* box-shadow: 0px 3px 5px rgb(0, 0, 0,1); */
-        border-bottom: 3px solid rgba(0, 0, 0, 0.500);
-    
-        /* backdrop-filter: blur(5px); */
-        /* -webkit-backdrop-filter: blur(5px);  */
-        /* background-color: rgb(249, 239, 215,0.65); */
-         background: rgba(248, 238, 214);
-        /* z-index: 999; */
-        border-radius: 11px;
-    }
-   
-    
-     .navicons{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        list-style-type: none;
-        
-     }
-    
-     .navitem img{
-        width: 35px;
-     }
-      
-     .navicons li{
-        box-sizing: border-box;
-        padding: 20px 20px;
-     }
-        
-       
-    
-    .signupbtn{
-        box-sizing: border-box;
-        /* width:  80px;
+@media (max-width: 800px) {
+  .navicons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+
+  .navitem img {
+    width: 35px;
+  }
+
+  .navicons li {
+    box-sizing: border-box;
+    padding: 20px 20px;
+  }
+
+  .signupbtn {
+    box-sizing: border-box;
+    /* width:  80px;
         height: 50px; */
-        width: 100px;
-        height: 30px;
-        border-radius: 6px;
-        font-family: 'Syncopate', sans-serif;
-        text-transform: capitalize;
-        font-weight: 700;
-        background-color: rgb(0, 78, 73);
-        box-shadow: 2px 4px 1px   rgba(0, 0, 0,1);
-        cursor: pointer;
-        font-size: 16px;
-        border:2px solid black;
-        
-        
-    }
-    
-    .signupbtn:active{
-        background-color: rgb(0, 78, 73,0.78);
-        box-shadow: 2px 2px 10px rgba(0, 0, 0,0.6);
-        transform: translateY(3px);
-        cursor: pointer;
-    
-    }
-    
-        
-    .navicons li a{
-        text-decoration: none;
-        color: white;
-    
-        
-    }
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    font-family: "Syncopate", sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: rgb(0, 78, 73);
+    box-shadow: 2px 4px 1px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid black;
+  }
+
+  .signupbtn:active {
+    background-color: rgb(0, 78, 73, 0.78);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+    transform: translateY(3px);
+    cursor: pointer;
+  }
+
+  .navicons li a {
+    text-decoration: none;
+    color: white;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
