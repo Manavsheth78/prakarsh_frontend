@@ -1,4 +1,4 @@
-import "./App.css"
+import "./App.css";
 import EventsPage from "./Pages/EventsPage/EventsPage";
 import AboutPage from "./Pages/AboutPage/AboutPage";
 import SponsersPage from "./Pages/SponsersPage/SponsersPage";
@@ -9,7 +9,6 @@ import Footer from "./Pages/Footer/Footer";
 import LoginPage from "./Pages/LoginPage/LoginPage";
 
 function App() {
-
   return (
     <>
       {/* <LoginPage /> */}
@@ -22,7 +21,6 @@ function App() {
       <Footer />
     </>
   );
-
 }
 /* prakarash*/
 export default App;
