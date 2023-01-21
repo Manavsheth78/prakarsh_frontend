@@ -1,51 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
-* {
-  box-sizing: border-box;
-}
-.container-fluid {
-  background-color: f9efd7;
-}
+
 .logo {
-  width: 100px;
-  object-fit: contain;
-  overflow: hidden;
+  width: 75px;
 }
 
-.navbar .logo img {
-  width: 100%;
-  object-position: 1rem 0.6rem;
-}
 a {
   text-decoration: none;
   color: black;
-  padding: 20px;
-}
-.navicons {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style-type: none;
+  padding: 30px;
 }
 
-.navitem img {
-  width: 50px;
-}
-
-.navicons li {
-  box-sizing: border-box;
-  padding: 20px 28px;
-}
 .cart {
-  width: 50px;
+  width: 30px;
+  padding: 0px !important;
+  position: relative;
+  bottom: 5px;
   font-size: 60px;
 }
 .signupbtn {
   box-sizing: border-box;
-  /* width:  80px;
-    height: 50px; */
   width: 120px;
-  height: 40px;
+  height: 30px;
   border-radius: 6px;
   font-family: "Syncopate", sans-serif;
   text-transform: capitalize;
@@ -67,16 +43,19 @@ a {
   color: white;
   padding: 0;
 }
-.navbar .navbar-expand-lg .bg-body-tertiary {
-  background-color: #f9efd7;
+
+.navbar {
+  background-color: #f9efd7 !important;
+  border-bottom: 1px solid black;
 }
+
 .navicons li a {
   text-decoration: none;
   color: white;
 }
 
 /* ------------------------responsive------------ */
-
+/* 
 @media (max-width: 800px) {
   .navicons {
     display: flex;
@@ -96,8 +75,6 @@ a {
 
   .signupbtn {
     box-sizing: border-box;
-    /* width:  80px;
-        height: 50px; */
     width: 100px;
     height: 30px;
     border-radius: 6px;
@@ -122,4 +99,4 @@ a {
     text-decoration: none;
     color: white;
   }
-}
+} */

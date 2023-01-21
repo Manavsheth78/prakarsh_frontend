@@ -1,0 +1,26 @@
+.maindiv {
+  background-color: #f9efd7;
+  border-top: 1px solid black;
+}
+
+.images {
+  display: flex;
+  margin-top: 20px;
+  width: 100vw;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h1 {
+  padding-top: 30px;
+  color: black;
+  text-align: center;
+  font-family: "Syncopate", sans-serif;
+}
+
+img {
+  padding: 10px 0;
+  width: 500px;
+}

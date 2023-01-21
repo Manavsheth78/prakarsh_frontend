@@ -23,7 +23,7 @@ function Navbar() {
     //     </ul>
     //   </div>
     // </div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -38,12 +38,16 @@ function Navbar() {
         </button>
 
         <a class="navbar-brand" href="#">
-          <div className="logo">
-            <img src="assets/prakarshlogo2.0.svg" alt="Prakarsh-Logo" />
+          <div>
+            <img
+              className="logo"
+              src="assets/prakarshlogo2.0.svg"
+              alt="Prakarsh-Logo"
+            />
           </div>
         </a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#"></a>
             </li>

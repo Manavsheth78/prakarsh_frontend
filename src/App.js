@@ -1,4 +1,4 @@
-import "./App.css"
+import "./App.css";
 import EventsPage from "./Pages/EventsPage/EventsPage";
 import AboutPage from "./Pages/AboutPage/AboutPage";
 import SponsersPage from "./Pages/SponsersPage/SponsersPage";
@@ -7,9 +7,9 @@ import Navbar from "./components/Navbar/Navbar";
 import HomePage from "./Pages/HomePage/HomePage";
 import Footer from "./Pages/Footer/Footer";
 import LoginPage from "./Pages/LoginPage/LoginPage";
+import GlimpseJSON from "./Pages/Glimpse/GlimpseJSON";
 
 function App() {
-
   return (
     <>
       {/* <LoginPage /> */}
@@ -17,12 +17,12 @@ function App() {
       <HomePage />
       <AboutPage />
       <EventsPage />
+      <GlimpseJSON />
       <SponsersPage />
       <ParticipantsPage />
       <Footer />
     </>
   );
-
 }
 /* prakarash*/
 export default App;
