@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import HomePage from "./Pages/HomePage/HomePage";
 import Footer from "./Pages/Footer/Footer";
 import LoginPage from "./Pages/LoginPage/LoginPage";
+import GlimpseJSON from "./Pages/Glimpse/GlimpseJSON";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <HomePage />
       <AboutPage />
       <EventsPage />
+      <GlimpseJSON />
       <SponsersPage />
       <ParticipantsPage />
       <Footer />

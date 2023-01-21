@@ -2,148 +2,138 @@ import React from "react";
 import "./ParticipantsPage.css";
 import { CoreTeam, WebDevTeam, Designer } from "./ParticipationTeams";
 
-const CoreMembers = [
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "https://google.com",
-    key: 1,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "https://google.com",
-    key: 2,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "https://google.com",
-    key: 3,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "https://google.com",
-    key: 4,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "https://google.com",
-    key: 5,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "https://google.com",
-    key: 6,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "LINK",
-    key: 7,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "LINK",
-    key: 8,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "LINK",
-    key: 9,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "LINK",
-    key: 10,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "LINK",
-    key: 11,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "LINK",
-    key: 12,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "LINK",
-    key: 13,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "LINK",
-    key: 14,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "LINK",
-    key: 15,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "LINK",
-    key: 16,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "LINK",
-    key: 17,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "LINK",
-    key: 18,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "",
-    key: 19,
-  },
-  {
-    MemberPhoto: "assets/CommityMembers/CoreCommityMembers/01.jpg",
-    Name: "Name",
-    Position: "chief coordinator",
-    Link: "LINK",
-    key: 20,
-  },
-];
+const CoreCommity = {
+  CoreMembersDetails: [
+    {
+      name: "Rudra Patel",
+      post: "co-ordinator",
+      key: 1,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "tohan",
+      post: "co-ordinator",
+      key: 2,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "tohan",
+      post: "co-ordinator",
+      key: 3,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "rauhl",
+      post: "co-ordinator",
+      key: 4,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "tohan",
+      post: "co-ordinator",
+      key: 5,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "ajay",
+      post: "co-ordinator",
+      key: 6,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "tohan",
+      post: "co-ordinator",
+      key: 7,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "tohan",
+      post: "co-ordinator",
+      key: 8,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "tohan",
+      post: "co-ordinator",
+      key: 9,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "tohan",
+      post: "co-ordinator",
+      key: 10,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "tohan",
+      post: "co-ordinator",
+      key: 11,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "tohan",
+      post: "co-ordinator",
+      key: 12,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "tohan",
+      post: "co-ordinator",
+      key: 13,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "tohan",
+      post: "co-ordinator",
+      key: 14,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "tohan",
+      post: "co-ordinator",
+      key: 15,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+    {
+      name: "tohan",
+      post: "co-ordinator",
+      key: 16,
+      photo: "/assets/CommityMembers/01.jpg",
+      LinkedinLink: "https://google.com",
+      GithubLink: "https://google.com",
+    },
+  ],
+};
 
 const ParticipantsPage = () => {
   return (
@@ -154,18 +144,10 @@ const ParticipantsPage = () => {
       <p className="NAVIGATION-LINE">
         <a href="/">CORE TEAM</a>
         <a href="/">DEVLOPER</a>
-        <a href="/">GRAPHICS</a>
       </p>
       <div className="COMMITEE-MEMBER-CONTAINER DEVLOPER-CONTAINER GRAPHICS-CONTAINER">
-        {CoreMembers.map((members) => (
-          <CoreTeam
-            item={members}
-            src={members.MemberPhoto}
-            MemberName={members.Name}
-            MemberPosition={members.Position}
-            memberLink={members.Link}
-            key={members.key}
-          />
+        {CoreCommity.CoreMembersDetails.map((items) => (
+          <CoreTeam item={items} key={items.key} photo={items.photo} />
         ))}
       </div>
     </div>
