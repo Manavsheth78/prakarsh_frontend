@@ -2,27 +2,9 @@ import React from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Navbar.css";
+import "../Navbar/Navbar.css";
 function Navbar() {
   return (
-    // <div className="navbar">
-    //
-    //   <div className="navcontent">
-    //     <ul className="navicons">
-    //       {/* <li className='navitem active'> <a href="#">
-    //              <img src="assets/user.png" className=' user' alt="" /></a></li> */}
-
-    //       <li className="navitem">
-    //         {" "}
-    //
-    //       </li>
-
-    //       <li>
-    //
-    //       </li>
-    //     </ul>
-    //   </div>
-    // </div>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <button
