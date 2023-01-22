@@ -34,7 +34,7 @@
   /* transform: translate(-50%,-50%); */
 }
 
-.headerline h1 {
+.headerline .prakarsh {
   /* font-family: "Syncopate", sans-serif; */
   font-family: "Righteous", cursive;
   /* color: linear-gradient(30deg, #9bb44d, #fff); */
@@ -107,27 +107,47 @@ span {
   text-transform: capitalize;
 }
 
-.glow {
+/* .glow {
   font-size: 80px;
-  color: #fff;
+  color: #004e49;
   text-align: center;
   animation: animate 5s linear infinite;
+  /*  */
+/* mix-blend-mode: light; */
+/* } */
+.glow {
+  font-size: 100px;
+  color: #004e49;
+  text-align: center;
+  font-family: "Righteous", cursive;
+  animation: glow 1s ease-in-out infinite alternate;
   -webkit-box-reflect: below -20px linear-gradient(transparent, transparent, rgb(82, 132, 75, 0.222), rgb(31, 98, 73, 0.222));
-  mix-blend-mode: light;
 }
 
-@-webkit-keyframes animate {
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #004e49,
+      0 0 40px #004e49, 0 0 50px #004e49, 0 0 60px #004e49, 0 0 70px #004e49;
+  }
+
+  to {
+    text-shadow: 0 0 20px #9bb44d, 0 0 30px #9bb44d, 0 0 40px #9bb44d,
+      0 0 50px #9bb44d, 0 0 60px #9bb44d, 0 0 70px #9bb44d, 0 0 80px #9bb44d;
+  }
+}
+
+/* @-webkit-keyframes animate {
   0% {
     color: #004e49;
     text-shadow: none;
   }
 
   100% {
-    color: #fff;
+    color: #004e49;
     text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
       0 0 60px #03bcf4, 0 0 80px #03bcf4, 0 0 160px #03bcf4;
   }
-}
+} */
 
 @media (max-width: 800px) {
   .HOMEPAGE-MAIN-CONTAINER {
