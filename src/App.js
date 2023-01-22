@@ -11,7 +11,7 @@ import GlimpseJSON from "./Pages/Glimpse/GlimpseJSON";
 
 function App() {
   return (
-    <>
+    <div className="app">
       {/* <LoginPage /> */}
       <Navbar />
       <HomePage />
@@ -21,7 +21,7 @@ function App() {
       <SponsersPage />
       <ParticipantsPage />
       <Footer />
-    </>
+    </div>
   );
 }
 /* prakarash*/
