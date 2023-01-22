@@ -43,10 +43,19 @@
   align-items: center;
   border: 15px solid #004e49;
   /* background-color: linear-gradient; */
-  background: -webkit-linear-gradient(30deg, #3e4e50, #f9efd7);
+  background: -webkit-linear-gradient(30deg, #004e49, #9bb44d, #004e49);
   border-radius: 15px;
   margin: 35px 25px;
   transition: all 0.7s ease-in-out;
+  color: white;
+}
+
+.EVENT-ITEM-CONTAINER img {
+  width: 20px;
+  transform: scale(1.5);
+  /* -webkit-outline-color: white; */
+  -webkit-filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
+  filter: drop-shadow(1px 1px 0) white drop-shadow(-1px -1px 0 white);
 }
 
 .row-1,
@@ -70,7 +79,11 @@
 
 .EVENT-ITEM-CONTAINER > p {
   margin-top: 65px;
-  color: #9bb44d;
+
+  color: white;
+  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   font-family: "ubuntu", cursive;
 }
 
