@@ -136,95 +136,80 @@ span {
   }
 }
 
-/* @-webkit-keyframes animate {
-  0% {
-    color: #004e49;
-    text-shadow: none;
-  }
-
-  100% {
-    color: #004e49;
-    text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
-      0 0 60px #03bcf4, 0 0 80px #03bcf4, 0 0 160px #03bcf4;
-  }
-} */
-
 @media (max-width: 800px) {
   .HOMEPAGE-MAIN-CONTAINER {
-    width: 100%;
+    /* width: 100v; */
     background-color: rgba(249, 239, 215, 0.781);
-    height: 90vh;
+    background-image: url("../../../public/assets/hero2.png");
+    height: 883px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    /* background: url('assets\hero1.png') ; */
     overflow: hidden;
-  }
-  .bgimage {
-    object-fit: contain;
-    background-position: center center;
   }
 
   .headerline {
     /* min-height: 800px; */
     text-align: center;
     position: absolute;
-    top: 20%;
+    top: 12%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
     align-items: center;
+    /* border: 2px solid white; */
+    /* transform: translate(-50%,-50%); */
   }
 
-  .headerline h1 {
-    font-family: "Syncopate", sans-serif;
-    color: #9bb44d;
+  .headerline .prakarsh {
+    /* font-family: "Syncopate", sans-serif; */
+    font-family: "Righteous", cursive;
+    /* color: linear-gradient(30deg, #9bb44d, #fff); */
     text-transform: capitalize;
-    font-weight: 900;
-    font-size: 40px;
+    font-weight: 700;
+    font-size: 60px;
     line-height: 120px;
+    background: -webkit-linear-gradient(30deg, #9bb44d, #004e49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   span {
     color: #004e49;
   }
   .headerline > p {
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 20px;
     /* line-height: 161.52%; */
     /* border: 2px dashed #9BB44D; */
-    width: 100%;
-    height: 200px;
+    /* width: 679px; */
+    height: 156px;
     text-align: center;
     text-transform: capitalize;
-    font-family: "Arapey", serif;
-    line-height: 165.552%;
-    margin-left: 2px;
+    font-family: "Didact Gothic", sans-serif;
 
+    /* font-family: "Arapey", serif; */
+    line-height: 165.552%;
+    margin-left: 8%;
     margin-top: 60px;
   }
 
   .headerline h2 {
-    text-transform: capitalize;
-    font-family: "Syncopate", sans-serif;
+    text-transform: uppercase;
+    font-family: "Righteous", cursive;
+    /* font-family: "Syncopate", sans-serif; */
     color: #004e49;
-    font-size: 20px;
+    font-size: 23px;
     /* font-weight: 800; */
   }
 
-  .headerline .launch h1 {
-    position: absolute;
-    top: 616px;
-    color: #004e49;
-    font-weight: 800;
-    width: max-content;
-    margin-left: 10%;
-  }
-
   .expbtn {
-    width: 250px;
-    height: 55px;
+    width: 303px;
+    height: 60px;
     z-index: 8888;
     border: 2px solid black;
-
+    padding: 0;
     background-color: #004e49;
     /* color: white; */
     box-shadow: 2px 5px black;
@@ -239,5 +224,26 @@ span {
     font-weight: bolder;
     font-family: "Syncopate", sans-serif;
     text-transform: capitalize;
+  }
+
+  .glow {
+    font-size: 100px;
+    color: #004e49;
+    text-align: center;
+    font-family: "Righteous", cursive;
+    animation: glow 1s ease-in-out infinite alternate;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, transparent, rgb(82, 132, 75, 0.222), rgb(31, 98, 73, 0.222));
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #004e49,
+        0 0 40px #004e49, 0 0 50px #004e49, 0 0 60px #004e49, 0 0 70px #004e49;
+    }
+
+    to {
+      text-shadow: 0 0 20px #9bb44d, 0 0 30px #9bb44d, 0 0 40px #9bb44d,
+        0 0 50px #9bb44d, 0 0 60px #9bb44d, 0 0 70px #9bb44d, 0 0 80px #9bb44d;
+    }
   }
 }
