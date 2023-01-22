@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <div className="HOMEPAGE-MAIN-CONTAINER">
       <div className="headerline">
-        <h1>
+        <h1 className="prakarsh">
           {" "}
           PRAKARSH'<span>23</span>
         </h1>
