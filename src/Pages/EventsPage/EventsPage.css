@@ -42,10 +42,11 @@
   justify-content: center;
   align-items: center;
   border: 15px solid #004e49;
-  background-color: #f9efd7;
+  /* background-color: linear-gradient; */
+  background: -webkit-linear-gradient(30deg, #3e4e50, #f9efd7);
   border-radius: 15px;
   margin: 35px 25px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .row-1,
