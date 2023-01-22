@@ -4,7 +4,11 @@ import "./ParticipantsPage.css";
 // import { LinkedIn } from "@mui/icons-material";
 const CoreTeam = (props) => {
   return (
-    <div className="CORE-COMITEE-CONTAINER">
+    <div
+      data-aos={props.item.Animation}
+      data-aos-delay="250"
+      className="CORE-COMITEE-CONTAINER"
+    >
       <img
         src={`${props.item.photo}`}
         className="CORE-COMMITEE-IMAGE"
