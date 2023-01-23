@@ -66,7 +66,7 @@ function Navbar() {
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a>
                 <button type="button" className="signupbtn">
                   {" "}
                   <a href="#"> SIGN UP </a>
