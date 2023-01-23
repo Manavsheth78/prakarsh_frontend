@@ -55,12 +55,13 @@ a {
   position: relative;
 }
 
-.nav-item .nav-link :not(:hover) {
+.nav-item :hover {
   /* color: #fa8f54; */
   background: -webkit-linear-gradient(30deg, #9bb44d, #004e49);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 20px;
+  /* font-size: 20px; */
+  transform: scale(1.1);
 
   /* text-shadow: 0 0 20px black, 0 0 30px black, 0 0 40px #4c4637,
     0 0 50px #4c4637, 0 0 60px #4c4637, 0 0 70px #4c4637, 0 0 80px #4c4637; */

@@ -135,6 +135,9 @@ span {
 
 @media (max-width: 800px) {
   .HOMEPAGE-MAIN-CONTAINER {
+
+    width: 100vw;
+    main
     background-color: rgba(249, 239, 215, 0.781);
     background-image: url("../../../public/assets/hero2.png");
     height: 883px;
@@ -187,7 +190,7 @@ span {
 
     /* font-family: "Arapey", serif; */
     line-height: 165.552%;
-    margin-left: 8%;
+    margin-left: 5%;
     margin-top: 60px;
   }
 
@@ -223,7 +226,7 @@ span {
   }
 
   .glow {
-    font-size: 100px;
+    font-size: px;
     color: #004e49;
     text-align: center;
     font-family: "Righteous", cursive;
@@ -238,8 +241,10 @@ span {
     }
 
     to {
-      text-shadow: 0 0 20px #9bb44d, 0 0 30px #9bb44d, 0 0 40px #9bb44d,
-        0 0 50px #9bb44d, 0 0 60px #9bb44d, 0 0 70px #9bb44d, 0 0 80px #9bb44d;
+      /* text-shadow: 0 0 20px #9bb44d, 0 0 30px #9bb44d, 0 0 40px #9bb44d,
+        0 0 50px #9bb44d, 0 0 60px #9bb44d, 0 0 70px #9bb44d, 0 0 80px #9bb44d; */
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #004e49,
+        0 0 40px #004e49, 0 0 50px #004e49, 0 0 60px #004e49, 0 0 70px #004e49;
     }
   }
 }
